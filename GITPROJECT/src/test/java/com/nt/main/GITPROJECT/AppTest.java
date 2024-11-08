@@ -28,6 +28,15 @@ public class AppTest extends TestCase {
         int actual = a.sum(val, val1); // Using same values for consistency
         assertEquals(expected, actual);
     }
+    
+    @Test
+    public void TestSumWithMixed() {
+        int val = 5;
+        int val1 = -5;
+        int expected = 0;  // Expected sum
+        int actual = a.sum(val, val1); // Using same values for consistency
+        assertEquals(expected, actual);
+    }
 
     /**
      * @return the suite of tests being tested
