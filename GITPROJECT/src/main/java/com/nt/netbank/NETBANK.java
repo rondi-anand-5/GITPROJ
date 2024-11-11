@@ -7,4 +7,9 @@ public class NETBANK {
 	  return "Created a netabanking";
 	}
 
+	public int sum()
+	{
+		System.out.println("hellowrld");
+		return 0;
+	}
 }
